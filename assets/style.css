@@ -42,6 +42,7 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -74,10 +75,13 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background: #dbeafe;
+  background: #111827;
+  color: white;
+  box-shadow: 0 10px 20px rgba(159, 8, 8, 0.08);
 }
 
 /* Sections */
@@ -91,7 +95,6 @@ body {
   text-align: center;
   color: #2563eb;
 }
-
 
 /* Horizontal line styling */
 hr {
@@ -110,7 +113,7 @@ hr {
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
 .about-card img {
@@ -133,11 +136,13 @@ hr {
   padding: 20px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
 }
 
 /* Contact Form */
@@ -149,13 +154,15 @@ form {
   margin: auto;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 
-button {
+
+form button {
   padding: 12px;
   background: #2563eb;
   color: white;
@@ -164,7 +171,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+form button:hover {
   background: #1d4ed8;
 }
 
@@ -182,6 +189,10 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+
+  .navbar ul {
+  padding: 0;
+}
 
   .hero h1 {
     font-size: 2rem;
