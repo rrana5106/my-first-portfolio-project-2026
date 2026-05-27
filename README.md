@@ -78,7 +78,7 @@ assets/images/
 Then update the screenshot path below:
 
 ```md
-![Portfolio Screenshot](assets/images/screenshot.png)
+![Portfolio Screenshot](assets/images/portfolio-screenshot.png)
 ```
 
 ---
