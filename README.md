@@ -104,10 +104,7 @@ https://github.com/rrana5106
 
 ## License
 
-This project is licensed under the MIT License.
-
-For more information:
-https://choosealicense.com/licenses/mit/
+N/A
 
 ---
 
