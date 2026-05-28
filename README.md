@@ -69,9 +69,8 @@ https://rrana5106.github.io/my-first-portfolio-project-2026/
 
 ### Screenshot
 
-```md
+
 ![screenshot](./assets/images/screenshot.png)
-```
 
 ---
 
