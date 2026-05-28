@@ -165,6 +165,4 @@ This project is deployed using GitHub Pages.
 
 The website will be available at:
 
-```text
 https://rrana5106.github.io/my-first-portfolio-project-2026/
-```
