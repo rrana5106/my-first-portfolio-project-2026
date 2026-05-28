@@ -69,16 +69,8 @@ https://rrana5106.github.io/my-first-portfolio-project-2026/
 
 ### Screenshot
 
-Add a screenshot inside:
-
-```text
-assets/images/
-```
-
-Then update the screenshot path below:
-
 ```md
-![Portfolio Screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 ```
 
 ---
