@@ -66,6 +66,24 @@ body {
   margin: 20px auto;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.contact-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+  color: #111827;
+}
+
 /* Button */
 .btn {
   display: inline-block;
